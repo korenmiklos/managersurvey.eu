@@ -1633,7 +1633,7 @@
 		}
 
 	a {
-		color: #5385c1;
+		color: #ff5700;
 		text-decoration: underline;
 	}
 
@@ -1655,7 +1655,7 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #5385c1;
+		color: #ff5700;
 		font-weight: 300;
 		line-height: 1.5;
 		margin: 0 0 1em 0;
@@ -1668,7 +1668,7 @@
 
 	h2 {
 		font-size: 1.75em;
-		font-weight: 100;
+		font-weight: 300;
 	}
 
 	h3 {
@@ -1805,16 +1805,16 @@
 		}
 
 		section.wrapper.style1, article.wrapper.style1 {
-			background: #5385c1;
-			color: #bacee6;
+			background: #ff8f00;
+			color: #ffffff;
 		}
 
 			section.wrapper.style1 header h2, article.wrapper.style1 header h2 {
-				color: #fff;
+				color: #ffffff;
 			}
 
 			section.wrapper.style1 header p, article.wrapper.style1 header p {
-				color: #bacee6;
+				color: #ffffff;
 			}
 
 			section.wrapper.style1 h3, article.wrapper.style1 h3 {
@@ -2028,8 +2028,8 @@
 		input[type="tel"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #5385c1;
-			box-shadow: 0 0 0 1px #5385c1;
+			border-color: #ff5700;
+			box-shadow: 0 0 0 1px #ff5700;
 		}
 
 	.select-wrapper {
@@ -2139,8 +2139,8 @@
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #5385c1;
-			box-shadow: 0 0 0 1px #5385c1;
+			border-color: #ff5700;
+			box-shadow: 0 0 0 1px #ff5700;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2660,7 +2660,7 @@
 		input[type="button"].special,
 		button.special,
 		.button.special {
-			background-color: #5385c1;
+			background-color: #ff8f00;
 			color: #ffffff !important;
 		}
 
@@ -2669,7 +2669,7 @@
 			input[type="button"].special:hover,
 			button.special:hover,
 			.button.special:hover {
-				background-color: #6692c8;
+				background-color: #ff5700;
 			}
 
 			input[type="submit"].special:active,
@@ -2677,7 +2677,7 @@
 			input[type="button"].special:active,
 			button.special:active,
 			.button.special:active {
-				background-color: #4278b8;
+				background-color: #ff5700;
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
@@ -2716,7 +2716,7 @@
 	}
 
 		.subpage #header {
-			background: #5385c1;
+			background: #ff5700;
 			top: 0;
 			height: 44px;
 			line-height: 44px;
@@ -2742,7 +2742,7 @@
 		}
 
 		#header .logo {
-			color: #ffffff;
+			color: #ff5700;
 			display: inline-block;
 			font-weight: 600;
 			height: inherit;
@@ -2855,7 +2855,7 @@
 		position: fixed;
 		right: 0;
 		top: 0;
-		background: #5385c1;
+		background: #ff5700;
 		color: #d4e0ef;
 		height: 100%;
 		max-width: 80%;
@@ -2934,27 +2934,31 @@
 
 	#banner {
 		padding: 12em 0 10em 0;
-		background-image: url('../../images/banner.jpg');
-		background-size: cover;
+		background-image: url('../../images/hero.jpg');
+		/*background-size: cover;*/
 		background-position: top;
 		background-attachment: fixed;
 		background-repeat: no-repeat;
 		text-align: center;
-		border-top: 0.5em solid #5385c1;
+		border-top: 0.5em solid #ff5700;
 	}
 
 		#banner h1 {
 			font-size: 3.5em;
-			font-weight: 100;
-			color: #fff;
+			font-weight: 600;
+			color: #ff5700;
 			line-height: 1em;
 			margin: 0 0 0.5em 0;
 			padding: 0;
 		}
 
+		#banner h2 {
+			font-weight: 600;
+		}
+
 		#banner p {
 			font-size: 1em;
-			color: rgba(255, 255, 255, 0.55);
+			color: #ff5700;
 			margin-bottom: 1.75em;
 		}
 
